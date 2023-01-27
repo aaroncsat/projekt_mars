@@ -85,6 +85,8 @@ nextBtn.addEventListener("click", () => {
     showPlanet(current);
 })
 
+
+
 prevBtn.addEventListener("click", () => {
 
     current--;
@@ -96,4 +98,6 @@ prevBtn.addEventListener("click", () => {
 
     showPlanet(current);
 })
+
+
 
