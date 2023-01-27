@@ -1,0 +1,91 @@
+*{
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+body{
+
+    background: linear-gradient(to right, rgb(239, 122, 122), rgb(236, 43, 43));
+}
+
+.container-img{
+
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 15px auto;
+    padding: 10px;
+    
+}
+
+#img{
+
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#name{
+
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+#description{
+
+    text-align: justify;
+    padding: 10px 20px;
+
+}
+
+.underline{
+
+    height: 0.25rem;
+    width: 36rem;
+    background: rgba(14, 13, 13, 0.868);
+    margin: 0 auto;
+}
+
+.planets{
+
+    box-shadow: 0 5px 16px rgba(0,0,0,0.5);
+    background: #fff;
+    border-radius: 5px;
+
+
+}
+
+.container{
+
+    width: 90%;
+    max-width: 1172px;
+
+}
+
+button{
+
+    cursor:pointer;
+    outline: none;
+    color: rgba(239, 40, 40, 0.868);
+    border:none;
+    background: none;
+    font-size: 30px;
+}
+
